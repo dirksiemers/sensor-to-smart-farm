@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Digitale Stallwirtschaft (Geflügel) erleben: Exkursion zu innovativen Technologien in der Tierhaltung</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				
+				<section>
+					<h3 class="r-fit-text">Praxiseinblicke in Stall-Sensorik und Datenaufbereitung</h3>
+					<p><small>Von der Messung zur intelligenten Regelung</small></p>
+					<p>14.05.2025</p>
+				</section>
+
+				<section data-background-transition="slide" data-background="assets/202405BD_Vietnambesucher0145-Verbessert-RR.jpg">
+					<h2 style="padding: 0.50em; background-color: rgba(0,0,0, 0.5); margin: 0.25em; margin-top: 50%;">Dirk Siemers</h2>
+				</section>
+
+				<section>
+					<h2>Dirk Siemers</h2>
+					<aside class="notes">
+						Die Sovido GmbH ist ein deutsches Unternehmen mit Sitz in Lüneburg, das sich auf die Entwicklung von Video-Technologien für den E-Commerce spezialisiert hat. Ihr Hauptprodukt ist eine Plattform, die es Online-Händlern ermöglicht, Produktvideos effizient zu erstellen, zu hosten und in ihre Shops zu integrieren. Dabei legt Sovido besonderen Wert auf Suchmaschinenoptimierung (Video-SEO), um die Sichtbarkeit von Produktseiten zu erhöhen und die Conversion-Raten zu verbessern.
+					</aside>
+					<p class="fragment">Jahrgang 1980</p>
+					<p class="fragment">Abitur 2001 Vechta GAV</p>
+					<p class="fragment">2007 Dipl. Inf. - Uni Oldenburg</p>
+					<p class="fragment">4 Jahre Web Entwickler - Audina GmbH</p>
+					<p class="fragment">2011 EXIST-Gründerstipendium "Sovido"</p>
+				</section>
+				
+				<section>
+					<h3>Familienbetrieb seit 1567</h3>
+					<p class="fragment">Twistringen OT Neuenmarhorst</p>
+					<p class="fragment">verheiratet, 3 Kinder</p>
+					<p class="fragment">Legehennenhalter seit 2011 in 3ter Generation</p>
+					<p class="fragment">31.000 Legehennen in Boden- und Freilandhaltung</p>
+					<p class="fragment">Impulsbetrieb im Netzwerk Fokus Tierwohl</p>
+					<p class="fragment">Einstieg in die Direktvermarktung "Hof Lühts"</p>
+				</section>
+
+				<section data-background-transition="slide" data-background="assets/202405BD_Vietnambesucher0319.jpg">
+					<h2 style="padding: 0.50em; background-color: rgba(0,0,0, 0.5); margin: 0.25em">Neubau 2019</h2>
+				</section>
+
+				<section>
+					<h2 class="r-fit-text">Ausflugsziel Mottenkamp</h2>
+					<p class="fragment">Seit 2020 Besuch aus aller Welt:</p>
+					<p>
+						<span class="fragment"> Irland, USA, Brasilien, Litauen, Israel, Niederlande, Ägypten, Norwegen, Frankreich, Türkei, Irak, Schweden und Finnland, Vietnam, China, Mexiko</span> 
+					</p>
+					<p class="fragment">Volierensystem Natura Step</p>
+					<p class="fragment">Klima- und Produktionscomputer - ViperTouch</p>
+					<p>
+						<span class="fragment">Weltweit einmalig:</span>
+						<span class="fragment">Sitzstangenheizung und -kühlung</span>
+					</p>
+					<p class="fragment">BFN Fusion mit OrbitX</p>
+				</section>
+
+				<section data-background-transition="slide" data-background-image="assets/viper-touch.jpg" data-background-size="cover">
+					<h2 style="padding: 0.50em; background-color: rgba(0,0,0, 0.5); margin: 0.25em; margin-top: 50%;">Viper Touch</h2>
+				</section>
+
+				<section data-background-transition="slide" data-background-image="assets/orbitX.jpg" data-background-size="cover">
+					<h2 style="padding: 0.50em; background-color: rgba(0,0,0, 0.5); margin: 0.25em; margin-top: 50%;">OrbitX</h2>
+				</section>
+
+				<section data-background-transition="slide" data-background-image="assets/fusion.jpg" data-background-size="contain">
+					<h2 style="padding: 0.50em; background-color: rgba(0,0,0, 0.5); margin: 0.25em; margin-top: 50%;">BFN Fusion</h2>
+				</section>
+				
+				<section>
+					<h3 class="r-fit-text">Vom Sensor zur Entscheidung</h3>
+					<aside class="notes">
+							<li>
+								<b>Sensoren</b>
+								Bevor wir in die praktischen Einblicke gehen, möchte ich Ihnen zwei kurze theoretische Grundlagen mitgeben. 
+								Es geht dabei um die Frage: Was machen wir eigentlich mit den Daten? 
+								Und wie kommen wir vom bloßen Messen zu besseren Entscheidungen?
+							</li>
+						</ul> 
+					</aside>
+					<p class="fragment">Kurze theoretische Grundlagen</p>
+					<p class="fragment">Was machen wir eigentlich mit den Daten?</p>
+					<p class="fragment">Und wie kommen wir vom bloßen Messen zu besseren Entscheidungen?</p>
+				</section>
+
+				<section>
+					<h3 class="r-fit-text">Daten, Informationen, Wissen, Semantik</h3>
+					<aside class="notes">
+						In der digitalen Welt – und besonders in der Landwirtschaft – reden wir oft über Daten. Aber was genau heißt das?
+						<ul>
+							<li>Daten sind rohe Werte: z.B. 26,4°C, 1200l Wasser, 580KG Futter. Für sich genommen sagen sie wenig aus.</li>
+							<li>Informationen entstehen, wenn wir diese Daten in Kontext setzen: Wasserverbrauch liegt 15% über dem Durchschnitt</li>
+							<li>Wissen entsteht, wenn wir aus diesen Informationen Muster erkennen: Wenn die Temperatur im Stall zu schnell steigt und gleichzeitig der Wasserverbrauch sinkt, dann besteht möglicherweise Hitzestress.</li>
+							<li>Semantik ist der nächste Schritt: Maschinen – also z.B. eine KI – „versteht“ zunehmend, was diese Daten bedeuten – etwa: Temperaturanstieg bei gleichzeitiger Inaktivität = Handlungsbedarf.</li>
+						</ul>
+						Ziel ist es, mit der Zeit von reinen Daten hin zu automatisierten Entscheidungsgrundlagen zu kommen – und das idealerweise in Echtzeit.
+						Aus Messwerten Handlungswissen machen – Grundlage für smarte Stallsteuerung & KI
+					</aside>
+					<p class="fragment">
+						<small>
+							In der digitalen Welt – und besonders in der Landwirtschaft – reden wir oft über Daten. Aber was genau heißt das?
+						</small>
+					</p>
+					<p class="fragment">
+						<strong>Daten</strong><br>
+						<small>26,4°C, 1200l Wasser, 580KG Futter</small>
+					</p>
+					<p class="fragment">
+						<strong>Informationen</strong><br>
+						<small>Wasserverbrauch liegt 15% über dem Durchschnitt</small>
+					</p>
+					<p class="fragment">
+						<strong>Wissen</strong><br>
+						<small>Erhöhter Wasserverbrauch bei steigender Stalltemperatur</small>
+					</p>
+					<p class="fragment">
+						<strong>Semantik</strong><br>
+						<small>Hitzeperiode, Anpassung der Fütterung nötig</small>
+					</p>
+				</section>
+
+				<section>
+					<h3 class="r-fit-text">Sensoren – Die Datensammler</h3>
+					<aside class="notes">
+						Das Fundament dieser Datenerfassung bilden Sensoren.
+						Sensoren sind unsere digitalen Augen, Ohren und Nasen im Stall
+						Legenester
+						Dr. Christian Lamping
+						Dealing with uncertainty: Deep learning for robust animal monitoring in uncontrolled environments
+					</aside>
+					
+					<p class="fragment"><small>digitalen Augen, Ohren und Nasen im Stall</small></p>
+					<p class="fragment">Temperatur, Feuchtigkeit, Luftqualität (CO₂, NH₃)</p>
+					<p class="fragment">Futter- und Wasserverbrauch</p>
+					<p class="fragment">Tiergewichte, Stallbelegung, Uhrzeit etc.</p>
+					<p class="fragment">Lichtverhältnisse, Lärmpegel, Tierbewegungen</p>
+				</section>
+				
+				<section>
+					<h3 class="r-fit-text">Aktoren – Die Umsetzer</h3>
+					<aside class="notes">
+						Ergänzt werden diese durch Aktoren – also stellende Systeme, die auf Basis der Daten direkt handeln können.
+					</aside>
+					
+					<p class="fragment">Ventilatoren starten oder stoppen</p>
+					<p class="fragment">Lüftungsklappen öffnen oder schließen</p>
+					<p class="fragment">Fütterung starten</p>
+					<p class="fragment">Licht dimmen</p>
+					<p class="fragment">Alarmmeldungen auslösen</p>
+				</section>
+
+				<section>
+					<h3>Regelung</h3>
+					<aside class="notes">
+						Regelung ist also der Schritt von „sehen“ (Sensor) über „verstehen“ (Vergleich Soll/Ist) zu „handeln“ (Aktor) – in einem geschlossenen Kreislauf.
+						Automatische Anpassung = Tierwohl sichern, Effizienz steigern
+					</aside>
+					
+					<p class="fragment"><small>Der Schritt von „sehen“ (Sensor) über „verstehen“ (Vergleich Soll/Ist) zu „handeln“ (Aktor) – in einem geschlossenen Kreislauf.</small></p>
+					<p class="fragment">Ein Sensor misst Temperatur (Ist: 27°C).</p>
+					<p class="fragment">Diese wird mit einem Sollwert verglichen (z.B. 22°C).</p>
+					<p class="fragment">Wenn die Ist-Temperatur abweicht, löst die Steuerung eine Aktion aus – z.B. wird die Lüftung erhöht oder ein Sprühnebel aktiviert.</p>
+					<p class="fragment">Der Sensor prüft erneut – Regelkreis.</p>
+				</section>
+
+				<section>
+					<h3 class="r-fit-text">Praxiseinblicke in Stall-Sensorik</h3>
+					<aside class="notes">
+						In der täglichen Praxis setzen wir verschiedene Sensoren ein, die uns helfen, das Stallklima und das Tierwohl besser zu überwachen und schneller auf Veränderungen zu reagieren. 
+					</aside>
+				
+					<p class="fragment">Temperatur- und Luftfeuchtesensoren</p>
+					<p class="fragment">Trommelwaage mit 20-kg-Kippungen, SiloCheck AIR</p>
+					<p class="fragment">Wasseruhr</p>
+					<p class="fragment">Messung Tiergewichte</p>
+				</section>
+
+				<section data-background-transition="slide" data-background-image="assets/temp-luft-sensor.jpg" data-background-size="contain">
+					<h2 class="r-fit-text" style="padding: 0.50em; background-color: rgba(0,0,0, 0.5); margin: 0.25em; margin-top: 10%;">Klimasensoren Feuchtigkeit & Temperatur</h2>
+				</section>
+
+				<section>
+					<h3 class="r-fit-text">Klimasensoren Feuchtigkeit & Temperatur</h3>
+					<aside class="notes">
+						NH₃ = Ammoniak
+					</aside>
+					<p class="fragment">Erfassung von Temperatur, Luftfeuchte, (CO₂, NH₃)</p>
+					<p class="fragment">Basis für Lüftungsregelung & Tierkomfort</p>
+					<p class="fragment">Kombination mit historischen Werten <br> & Außendaten möglich</p>
+				</section>
+
+				<section data-background-transition="slide" data-background-image="assets/silo-umbau.jpeg" data-background-size="contain">
+					<h2 style="padding: 0.50em; background-color: rgba(0,0,0, 0.5); margin: 0.25em; margin-top: 60%;">Umbau Futterzubringer</h2>
+				</section>
+
+				<section data-background-transition="slide" data-background-image="assets/dol99.jpeg" data-background-size="contain">
+					<h2 style="padding: 0.50em; background-color: rgba(0,0,0, 0.5); margin: 0.25em; margin-top: 40%;">Futterwaage</h2>
+				</section>
+
+				<section>
+					<h3>Futterverbrauch</h3>
+					<aside class="notes">
+
+					</aside>
+					<p class="fragment">Stündliche Auswertung möglich</p>
+					<p class="fragment">Auffälligkeiten im Fressverhalten schnell sichtbar</p>
+					<p class="fragment">Vergleich über Etagen und Fütterungsphasen hinweg</p>
+					<p class="fragment">Verbrauchsprognose</p>
+				</section>
+
+				<section data-background-transition="slide" data-background-image="assets/wasseruhr.jpeg" data-background-size="contain">
+					<h2 style="padding: 0.50em; background-color: rgba(0,0,0, 0.5); margin: 0.25em; margin-top: 40%;">Wasseruhr</h2>
+				</section>
+
+				<section>
+					<h3>Wasserverbrauch</h3>
+					<aside class="notes">
+						100L Wasserverbrauch um 2Uhr nachts = Alarm <br>
+						100L Wasserverbrauch um 12Uhr mittags = normal <br>
+						Gleicher Messwert, andere Bewertung – abhängig von der Uhrzeit!
+					</aside>
+					<p class="fragment">Stündliche Auswertung möglich</p>
+					<p class="fragment">Erkennung von Stressphasen (Hitze, Krankheit)</p>
+					<p class="fragment">Kontrolle der Tränketechnik</p>
+					<p class="fragment">Frühwarnsystem bei Rückgängen</p>
+				</section>
+
+				<section data-background-transition="slide" data-background-image="assets/incas2.jpeg" data-background-size="contain">
+					<h2 style="padding: 0.50em; background-color: rgba(0,0,0, 0.5); margin: 0.25em; margin-top: 40%;">Incas 2</h2>
+				</section>
+
+				<section>
+					<h3 class="r-fit-text">Messung Tiergewichte</h3>
+					Wiegung einzelner Tiere über automatisierte Systeme
+					<aside class="notes">
+
+					</aside>
+					<p class="fragment">Kontrolle der täglichen Zunahmen</p>
+					<p class="fragment">Überprüfung der Uniformität</p>
+					<p class="fragment">Erkennung von Problemen in Fütterung oder Klima</p>
+				</section>
+
+				<section>
+					<h3 class="r-fit-text">Live Demo</h3>
+					<a href="https://connection.bfn-fusion.bigdutchman.com" data-preview-link>BFN Fusion Connection</a>
+				</section>
+				</section>
+
+				<section>
+					<h3 class="r-fit-text">Fazit und Ausblick</h3>
+					<aside class="notes">
+						<ul>
+							<li>Füllstandsmessung, Verbrauchsprognosen, Frühzeitige Bestelllogistik, Vermeidung von Engpässen</li>
+							<li>Audio-, Videotechnik</li>
+							<li>Mustererkennung & Prognosen</li>
+							<li>Erkennung vorzeitiger Tiererkrankungen</li>
+							<li>Schnittstellen zu Futterlieferanten, Tierärzten, Behören, Labels</li>
+							<li>Wasserqualität messen, Lichtstärke und -farbe! messen</li>
+						</ul>
+					</aside>
+					<p class="fragment"><small>Sensorik ist mehr als Technik<br>sie ist die Basis für Wissen, Steuerung und Zukunftsfähigkeit im Stall</small></p>
+					<p class="fragment"><small>Wer früh Daten sammelt, kann später besser reagieren – oder sogar automatisch regeln</small></p>
+					<br>
+					<p class="fragment">Erweiterung der Stall-Sensorik</p>
+					<p class="fragment">KI & Datenvernetzung</p>
+				</section>
+
+				<section data-background-transition="slide" data-background="assets/huehner.jpg">
+					<h2 style="padding: 0.50em; background-color: rgba(0,0,0, 0.5); margin: 0.25em; margin-top: 50%;">Vielen Dank</h2>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
